@@ -16,8 +16,26 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 
 <body class="w3-light-grey">
 
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-teal w3-wide  w3-margin-bottom w3-padding w3-card-4">
+      <a href="#home" class="w3-bar-item w3-button"><b>Nataliia</b></a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+        <!--<a href="#talks" class="w3-bar-item w3-button">Talks</a>-->
+        <a href="#service" class="w3-bar-item w3-button">Service</a>
+        <!--<a href="#projects" class="w3-bar-item w3-button">Projects<-/a>-->
+        <a href="#theses" class="w3-bar-item w3-button">Theses</a>
+        <!--<a href="#contact" class="w3-bar-item w3-button">Contact</a>-->
+      </div>
+    </div>
+  </div>
+
+<br><br>
+
   <!-- Page Container -->
-  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <div class="w3-content w3-padding w3-margin-top" style="max-width:1400px;">
 
     <!-- The Grid -->
     <div class="w3-row-padding">
@@ -76,7 +94,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
       <div class="w3-twothird">
 
         <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About me</h2>
+          <h2 class="w3-text-grey w3-padding-16" id="home"><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About me</h2>
 
           <p>I'm Nataliia and I study languages, natural, specification and programming ones.</p>
 
@@ -106,7 +124,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 
 
         <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file-text-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Publications</h2>
+          <h2 class="w3-text-grey w3-padding-16" id="publications"><i class="fa fa-file-text-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Publications</h2>
           <div class="w3-container">
 
             <h3>Journal papers</h3>
@@ -183,7 +201,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
       </div>
 
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-users fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Service</h2>
+        <h2 class="w3-text-grey w3-padding-16" id="service"><i class="fa fa-users fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Service</h2>
         <div class="w3-container">
 
           <h4>Organizing Committees</h4>
@@ -208,7 +226,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 
 
     <div class="w3-container w3-card w3-white w3-margin-bottom">
-      <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Theses</h2>
+      <h2 class="w3-text-grey w3-padding-16" id="theses"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Theses</h2>
 
         <div class="w3-container">
         <b>Improving Run-time Checking in Dynamic Programming Languages</b> (<a href="https://cliplab.org/papers/nataliia-phd.pdf">PDF</a>)
