@@ -8,11 +8,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Ubuntu", sans-serif
+}
+.w3-content a:link {
+  text-decoration: none;
+  background-color: #adebeb;
+}
+.w3-content a:visited {
+  text-decoration: none;
+  background-color: #ebebeb;
+}
+.w3-content a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #009999;
+}
+.w3-content a:active {
+  text-decoration: none;
+  background-color: #00cc99;
+}
 </style>
 
 <body class="w3-light-grey">
@@ -23,7 +41,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
       <a href="#home" class="w3-bar-item w3-button"><b>Nata</b></a>
       <!-- Float links to the right. Hide them on small screens -->
       <div class="w3-right w3-hide-small">
-        <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+        <a href="#projects" class="w3-bar-item w3-button">Projects</a>
         <!--<a href="#talks" class="w3-bar-item w3-button">Talks</a>-->
         <a href="#service" class="w3-bar-item w3-button">Service</a>
         <a href="#theses" class="w3-bar-item w3-button">Theses</a>
@@ -55,6 +73,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
             <p><i class="fa fa-map-marker fa-fw w3-margin-right w3-large w3-text-teal"></i>Bern, BE, Switzerland</p>
             <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>remote</p>
             <hr>
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-address-card fa-fw w3-margin-right w3-text-teal"></i>Contact</b></p>
             <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>nata [at] stulova [dot] me</p>
             <hr>
 
@@ -66,15 +85,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
             <p><i class="fab fa-adn fa-fw w3-margin-right w3-large w3-text-teal"></i>Academia.Edu://<a href="https://epfl.academia.edu/NataliiaStulova">NataliiaStulova</a></p>
             <p><i class="fas fa-dice-d6 fa-fw w3-margin-right w3-large w3-text-teal"></i>ACM DL://<a href="https://dl.acm.org/author_page.cfm?id=99658735736">Nataliia Stulova</a></p>
             <p><i class="fas fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-teal"></i>Google Scholar://<a href="https://scholar.google.ch/citations?hl=uk&user=aiGSrWYAAAAJ">Nataliia Stulova</a></p>
-            <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-6804-2253" href="https://orcid.org/0000-0002-6804-2253" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.3em;margin-right:1.3em;" alt="ORCID iD icon">orcid.org/0000-0002-6804-2253</a></div>
+            <div itemscope itemtype="https://schema.org/Person">
+              <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-left:.3em;margin-right:1.3em;" alt="ORCID iD icon">orcid.org://
+              <a itemprop="sameAs" content="https://orcid.org/0000-0002-6804-2253" href="https://orcid.org/0000-0002-6804-2253" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">
+                0000-0002-6804-2253
+              </a>
+            </div>
 
             <hr>
             <p class="w3-large w3-text-theme"><b><i class="fa fa-language fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
             <p>Ukrainian</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-teal" style="height:12px;width:100%"></div>
-            </div>
-            <p>Russian</p>
             <div class="w3-light-grey w3-round-xlarge">
               <div class="w3-round-xlarge w3-teal" style="height:12px;width:100%"></div>
             </div>
@@ -102,6 +122,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
           </div>
         </div><br>
 
+
       <!-- End Left Column -->
       </div>
 
@@ -114,12 +135,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
           <h2 class="w3-text-grey w3-padding-16" id="home"><i class="fas fa-user-circle fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About me</h2>
 
           <p>
-            I'm Nata and I do software engineering research. I focus on formal and informal program documentation, developing tools to make sure that docs stay up to date and software really does what its specifiations say.
+            I'm Nata and since 2013 I have been doing software engineering research. I have been focusing on formal and informal program documentation, developing tools to make sure that the specification docs stay up to date and software really does what its specifiations say.
+          </p>
+ 
+          <p>
+            This is my most recent <a href="files/cv-nata-stulova.pdf">CV</a>.
           </p>
 
-          <p>
-            This is my <a href="files/cv-nata-stulova.pdf">CV</a>, and my short biography is right below :-)
-          </p>
+          <h4>Bio</h4>
 
           <p>
             I have worked as a senior postdoctoral researcher at the Software Composition Group (<a href="http://scg.unibe.ch/">SCG</a>) led by <a href="http://scg.unibe.ch/staff/oscar">Oscar Nierstrasz</a>, a part of the <a href="https://www.unibe.ch/">University of Bern</a>, Switzerland.
@@ -157,10 +180,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", sans-serif}
 
         </div>
 
-<!-- ---------------- PUBLICATIONS ---------------- -->
+<!-- ---------------- PROJECTS ---------------- -->
 
         <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16" id="publications"><i class="fas fa-copy fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Publications</h2>
+          <h2 class="w3-text-grey w3-padding-16" id="projects"><i class="fas fa-copy fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
           <div class="w3-container">
 
             <h3 class="w3-teal">Journal and conference articles</h3>
